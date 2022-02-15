@@ -1,0 +1,18 @@
+package jl_1;
+
+public class zadanie17 {
+
+	public static void main(String[] args) {
+		
+		double akcje = 21.77 * 600;
+		
+		double prowizja = akcje*0.02;
+		
+		double akcjeZProwizjami = akcje+prowizja;
+		
+		System.out.println("Same akcje kosztują: " + akcje + " Prowizja kosztuje "+ prowizja + " Wszystko razem kosztuje " + akcjeZProwizjami);
+		
+		
+	}
+
+}
