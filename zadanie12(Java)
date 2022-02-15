@@ -1,0 +1,29 @@
+package jl_1;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class zadanie12 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		int liczbaCiastek ;
+		System.out.println("Podaj ile ciasteczek zjadłeś: ");
+		
+		liczbaCiastek = klawisz.nextInt();
+		
+		double kalorie = liczbaCiastek*75;
+		
+		System.out.println("Liczba zjedzonych ciastek równa się "+  kalorie + " zjedzonym kaloriom ");
+		
+		
+		
+		
+
+	}
+
+}
