@@ -1,0 +1,39 @@
+package jl_1;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class zadanie13 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		int wynikTestu1 ;
+		System.out.println("Podaj ile procent dostałeś z testu 1: ");
+		
+		wynikTestu1 = klawisz.nextInt();
+		
+		int wynikTestu2 ;
+		System.out.println("Podaj ile procent dostałeś z testu 2: ");
+		
+		wynikTestu2 = klawisz.nextInt();
+		
+		int wynikTestu3 ;
+		System.out.println("Podaj ile procent dostałeś z testu 3: ");
+		
+		wynikTestu3 = klawisz.nextInt();
+		
+		double srednia = (wynikTestu1+wynikTestu2+wynikTestu3)/3;
+		
+		System.out.println("Wynik z pierwszego testu wynosi: " + wynikTestu1 + " Wynik z drugiego testu wynosi : " + wynikTestu2 + " Wynik z trzeciego testu wynosi: "+ wynikTestu3 + " Średnia testów wynosi" + srednia);
+		
+		
+		
+		
+
+	}
+
+}
