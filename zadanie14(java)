@@ -1,0 +1,24 @@
+package jl_1;
+
+import java.util.Scanner;
+
+public class zadanie14 {
+
+	public static void main(String[] args) {
+		     
+		Scanner klawisz = new Scanner(System.in); 
+		
+		double cenaDetaliczna ;
+		System.out.println("Podaj cenę detaliczną: ");
+		
+		cenaDetaliczna = klawisz.nextDouble();
+		
+		
+	
+		double zysk = cenaDetaliczna*0.4;
+		
+		System.out.println("Zysk wynosi: " + zysk);
+
+	}
+
+}
