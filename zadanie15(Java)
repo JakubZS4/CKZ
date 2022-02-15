@@ -1,0 +1,37 @@
+package jl_1;
+
+import java.util.Scanner;
+
+public class zadanie15 {
+
+	public static void main(String[] args) {
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		String miasto ;
+		System.out.println("Podaj swoje ulubione miasto: ");
+		
+		miasto = klawisz.nextLine();
+		
+		//int liczbaZnakow = ;
+	
+		
+		
+		int dlugosc = miasto.length();
+		
+		String duze, male;
+		
+		duze = miasto.toUpperCase();
+		male = miasto.toLowerCase();
+		
+		char pierwsza = miasto.charAt(0);
+		
+		
+		System.out.println(dlugosc+" "+duze+" "+male+" "+pierwsza);
+		
+		
+		
+
+	}
+
+}
