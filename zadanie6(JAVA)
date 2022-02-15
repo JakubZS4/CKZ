@@ -1,0 +1,23 @@
+package jl_1;
+
+public class zadanie6 {
+
+	public static void main(String[] args) {
+		int pom1;
+		pom1=3*4;
+		int pom2;
+		pom2=3*4;
+		int pom3;
+		pom3=3*2;
+		int pom4;
+		pom4=2*2;
+
+		
+		System.out.println(+pom1+" "+pom2+" "+pom3+" "+pom4+" ");
+		System.out.println(+pom1+pom2+pom3+pom4);
+		
+		System.out.println((pom1+pom2+pom3+pom4) /4.0);
+		
+	}
+
+}
