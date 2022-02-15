@@ -1,0 +1,27 @@
+package jl_1;
+
+import java.util.Scanner;
+
+public class zadanie11 {
+
+	public static void main(String[] args) {
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		int ileKm;
+		System.out.println("Podaj ile kilometrów przejechałeś: ");
+		
+		ileKm = klawisz.nextInt();
+		
+		int ileL;
+		System.out.println("Podaj ile litrów zużyłeś: ");
+		
+		ileL = klawisz.nextInt();
+		
+		double wartosc = (double)ileKm/ileL;
+		
+		System.out.println("Tyle kilometrów przejechałes na litrze paliwa: "+ wartosc);
+
+	}
+
+}
