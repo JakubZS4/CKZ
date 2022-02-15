@@ -1,0 +1,18 @@
+package jl_1;
+
+public class zadanie8 {
+
+	public static void main(String[] args) {
+		
+		String name = "Lipień";
+  		String age = "18";
+  		String annualPay = "120000";
+  		
+  		System.out.println("Nazywam się "+name+" mam "+age+" i chcę zarabiać "+ annualPay);
+		
+		
+		
+	
+	}
+
+}
