@@ -1,0 +1,26 @@
+package jl_1;
+
+import java.util.Scanner;
+
+public class zadanie16 {
+
+	public static void main(String[] args) {
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		double cena ;
+		System.out.println("Podaj cenę posiłku: ");
+		
+		cena = klawisz.nextDouble();
+		
+		double podatek = cena-93.25; 
+		double napiwek = (cena+podatek)-80;
+		
+		double CenaWszystkiego = cena+podatek+napiwek;
+		
+		System.out.println("Cena posiłku wynosi: " + cena +"Podatek wynosi: " + podatek + "Napiwek wynosi: " + napiwek + "Cena wszystkiego wynosi: " + CenaWszystkiego);
+		
+
+	}
+
+}
