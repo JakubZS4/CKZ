@@ -1,0 +1,15 @@
+package jl_1;
+
+public class zadanie18 {
+
+	public static void main(String[] args) {
+		
+		double JedenNapojTygodniowo = 12467*0.14;
+		
+		double EnergetykCytrynowy = 12467*0.64;
+		
+		System.out.println("Liczba osób pijąca napój energetyczny raz w tygodniu wynosi: " + JedenNapojTygodniowo + "Liczba osób lubiąca smak cytrynowy napojów energetycznych wynosi: " + EnergetykCytrynowy);
+
+	}
+
+}
