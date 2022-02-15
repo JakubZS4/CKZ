@@ -1,0 +1,26 @@
+package jl_1;
+
+import java.util.Scanner;
+
+public class zadanie10 {
+
+	public static void main(String[] args) {
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+		int Wartosc;
+		System.out.println("Podaj wartosc produktu: ");
+		
+		Wartosc = klawisz.nextInt();
+		
+		double sprzedazZpodatkami1 = Wartosc*0.02;
+		double sprzedazZpodatkami2 = Wartosc*0.04;
+	    double sprzedazCalkowitaZpodatkami2 = Wartosc+sprzedazZpodatkami1+sprzedazZpodatkami2;
+		
+	
+		
+		System.out.println("Wartośc produktu wynosi: "+ Wartosc +" Pierwszy podatek wynosi: "+ sprzedazZpodatkami1 +" Drugi podatek wynosi "+ sprzedazZpodatkami2 + " Cena całkowita produktu z podatkami wynosi: "+ sprzedazCalkowitaZpodatkami2 );
+
+	}
+
+}
