@@ -1,0 +1,18 @@
+package jl_1;
+
+public class zadanie7 {
+
+	public static void main(String[] args) {
+		
+		double sprzedaz = 4600000;
+		
+		double sprzedazMazowsze = sprzedaz*0.62;
+		
+		System.out.println(sprzedazMazowsze);
+		
+		
+		
+
+	}
+
+}
