@@ -1,0 +1,41 @@
+package zad1;
+
+import java.util.Scanner;
+
+public class zad8 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner klawisz = new Scanner(System.in); 
+		
+ 		int zakup;
+ 		
+		System.out.println("Ile pakietów kupiłeś ? ");
+		
+		zakup = klawisz.nextInt();
+		
+		if (zakup >= 100) {
+			System.out.println("Otzrymujesz 50 % rabatu ");
+		}
+		else if (zakup >= 50 && zakup <= 90 ) {
+			System.out.println("Otrzymujesz 40 % rabatu ");
+		}
+		else if (zakup >= 20 && zakup <= 49 ) {
+			System.out.println("Otrzymujesz 30 % rabatu");
+		}
+		else if (zakup >= 10 && zakup <= 19 ) {
+			System.out.println("Otrzymujesz 20 % rabatu");
+		}
+		
+		int zakupzrabatem ;
+		
+		zakupzrabatem = zakup * 99;
+ 		
+		System.out.println("Zakup tych pakietów z rabatem wynosi ");
+		
+		zakupzrabatem = klawisz.nextInt();
+
+	}
+
+}
