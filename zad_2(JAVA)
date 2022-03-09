@@ -1,0 +1,40 @@
+package zad1;
+
+import java.util.Scanner;
+
+public class zad2 {
+
+	public static void main(String[] args) {
+		
+		 		Scanner klawisz = new Scanner(System.in); 
+		 		
+				System.out.println("Podaj dzień, miesiąc oraz dwie ostatnie cyfry roku w formie liczby ");
+				
+				int dzien;
+				
+				System.out.println("Dzień w formie liczby: ");
+				
+				dzien = klawisz.nextInt();
+				
+				int miesiac;
+				
+				System.out.println("Miesiąc w formie liczby: ");
+				
+				miesiac = klawisz.nextInt();
+				
+				int rok;
+				
+				System.out.println("Dwie ostatnie cyfry roku: ");
+				
+				rok = klawisz.nextInt();
+				
+				if (dzien*miesiac == rok) {
+					System.out.println("Liczba jest magiczna");
+				}
+				else 
+					System.out.println("Liczba nie jest magiczna");
+				
+				
+	}
+
+}
