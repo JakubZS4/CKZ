@@ -1,0 +1,32 @@
+package zad1;
+
+import java.util.Scanner;
+
+public class zad6 {
+
+	public static void main(String[] args) {
+		
+		Scanner klawisz = new Scanner(System.in);
+		
+		System.out.println("Podaj ile sekund:");
+		int sekundy = klawisz.nextInt();
+		
+		if(sekundy>=0 && sekundy<60) {
+			System.out.println(sekundy + " sekund to " + sekundy + " sekund.");
+		}
+		
+		else if(sekundy>=60 && sekundy<3600) {
+			System.out.println(sekundy + "sekund to " + sekundy/60 + " minut i " + sekundy%60 + " sekund.");
+		}	
+		
+		else if(sekundy>=3600 && sekundy<86400) {
+			System.out.println(sekundy + "sekund to " + sekundy/3600 + " godzin, " + sekundy%60 + " minut i " + sekundy%60 + " sekund.");
+		}
+		
+		else if(sekundy>=86400 && sekundy<10000000) {
+		System.out.println(sekundy + "sekund to " + sekundy/86400 + " dni, " + sekundy/3600 + " godzin, " + sekundy%60 + " minut i " + sekundy%60 + " sekund.");
+		}
+		
+		
+	}
+}
