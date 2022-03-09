@@ -1,0 +1,40 @@
+package zad1;
+
+import java.util.Scanner;
+
+public class zad7 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner klawisz = new Scanner(System.in); 
+ 		
+		System.out.println("Podaj trzy imiona ");
+		
+		String imie1;
+		
+		System.out.println("Podaj pierwsze imię: ");
+		
+		imie1 = klawisz.nextLine();
+		
+		String imie2;
+		
+		System.out.println("Podaj drugie imię: ");
+		
+		imie2 = klawisz.nextLine();
+		
+		String imie3;
+		
+		System.out.println("Podaj trzecie imię: ");
+		
+		imie3 = klawisz.nextLine();
+		
+		
+		
+		
+
+		
+
+	}
+
+}
